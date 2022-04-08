@@ -69,7 +69,7 @@ h1, h2, h3, div, img,p, section{
           transition: all 1s ease;
 }
 .link:hover {
-    color:aqua;
+    color:#20B2AA;
 }
 
 .header__main-illustration {
@@ -243,7 +243,7 @@ h1, h2, h3, div, img,p, section{
 }
 
 .feinmann__link:hover {
-    color:#494848;
+    color:#494848b0;
     }
 
 .kaufman {
