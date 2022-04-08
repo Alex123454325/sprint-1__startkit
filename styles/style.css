@@ -58,13 +58,18 @@ h1, h2, h3, div, img,p, section{
     width:388px;
 }
 
-
 .link::after {
     content:'\2192';
 }
 
 .link{
     color:#2F80ED;
+    text-decoration: none;
+    -webkit-transition: all 1s ease;
+          transition: all 1s ease;
+}
+.link:hover {
+    color:aqua;
 }
 
 .header__main-illustration {
@@ -231,8 +236,15 @@ h1, h2, h3, div, img,p, section{
     line-height:51px;
     font-size:36px;
     right:48px;
-    color:black;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
 }
+
+.feinmann__link:hover {
+    color:#494848;
+    }
 
 .kaufman {
     padding-bottom:90px;
@@ -273,7 +285,7 @@ h1, h2, h3, div, img,p, section{
 .footer {
     padding-top:60px;
     padding-bottom:40px;
-    background-color: #000;
+    background-color: rgb(0, 0, 0);
     color:white;
     min-height:350px;
 }
@@ -332,19 +344,47 @@ h1, h2, h3, div, img,p, section{
 
 .footer__content-social a:link {
     color:#fff;
+    text-decoration: none;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
 }
+
+.footer__content-social a:link:hover {
+    color:#494848;
+    }
 
 .footer__content-social a:visited {
     color: #fff;
+    text-decoration: none;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
 }
+
+.footer__content-social a:visited:hover {
+    color:#494848;
+    }
 
 .footer__column-links a:link {
     color:#fff;
+    text-decoration: none;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
 }
+
+.footer__column-links a:link:hover {
+    color:#494848;
+    }
 
 .footer__column-links a:visited {
     color: #fff;
+    text-decoration: none;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
 }
+
+.footer__column-links a:visited:hover {
+    color:#494848;
+    }
 
 .footer__column_content-social {
     margin-bottom:16px;
