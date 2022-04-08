@@ -91,9 +91,6 @@ h1, h2, h3, div, img,p, section{
     position: absolute;
 }
 
-
-/* OTHER */
-
 .description{
     margin-top:100px;
     margin-bottom:100px;
@@ -249,7 +246,7 @@ h1, h2, h3, div, img,p, section{
 .kaufman {
     padding-bottom:90px;
     color: white;
-    background-color:#000;
+    background-color:rgba(0, 0, 0, 0.970);
     overflow:hidden;
     position: relative;
 }
@@ -285,7 +282,7 @@ h1, h2, h3, div, img,p, section{
 .footer {
     padding-top:60px;
     padding-bottom:40px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0, 0.970);
     color:white;
     min-height:350px;
 }
